@@ -1,44 +1,69 @@
 # Management Dashboard
 
-This project is a web-based management dashboard built using Django. It is designed to provide an intuitive and efficient way to monitor and manage various business operations.
+## Overview
 
-## Features
+The Management Dashboard is a web application built using Django, designed to help users manage and visualize various data efficiently. It incorporates functionalities to handle documents, spreadsheets, and PDF files, making it an essential tool for management tasks.
 
-- **User Management**: Create, update, and manage user accounts.
-- **Analytics Dashboard**: Display key metrics and data visualizations.
-- **Task Management**: Assign and track tasks and project progress.
-- **Responsive Design**: Accessible on both desktop and mobile devices.
+## Requirements
 
-## Technologies Used
+To run this project, you need to install the following Python packages:
 
-- Django
-- HTML/CSS
-- JavaScript
-- Bootstrap
+- `asgiref==3.7.2`
+- `colorama==0.4.6`
+- `Django==4.2.3`
+- `django-cleanup==8.0.0`
+- `docx==0.2.4`
+- `docx2pdf==0.1.8`
+- `et-xmlfile==1.1.0`
+- `lxml==4.9.3`
+- `numpy==1.25.0`
+- `openpyxl==3.1.2`
+- `pandas==2.0.3`
+- `Pillow==10.0.0`
+- `PyPDF2==3.0.1`
+- `python-dateutil==2.8.2`
+- `python-docx==0.8.11`
+- `pytz==2023.3`
+- `pywin32==306`
+- `six==1.16.0`
+- `sqlparse==0.4.4`
+- `subprocess.run==0.0.8`
+- `tqdm==4.65.0`
+- `typing_extensions==4.7.1`
+- `tzdata==2023.3`
 
-## Getting Started
+## Installation
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/Kami80/Management-Dashboard.git
+   cd Management-Dashboard
    ```
 
-2. Install dependencies:
+2. Create a virtual environment (optional but recommended):
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
+
+3. Install the required packages:
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Run the development server:
-   ```bash
-   python manage.py runserver
-   ```
+## Usage
 
-4. Access the site at `http://127.0.0.1:8000`.
+To start the Django server, run:
+```bash
+python manage.py runserver
+```
 
-## Deployment
+Visit `http://127.0.0.1:8000/` in your web browser to access the dashboard.
 
-To deploy, use services like Heroku, AWS, or any Django-compatible hosting provider.
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
 
 ## License
 
-This project is open-source and licensed under the MIT License.
+This project is licensed under the MIT License.
