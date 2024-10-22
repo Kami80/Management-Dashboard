@@ -4,6 +4,8 @@
 
 The Management Dashboard is a web application built using Django, designed to help users manage and visualize various data efficiently. It incorporates functionalities to handle documents, spreadsheets, and PDF files, making it an essential tool for management tasks.
 
+![dashboard](https://github.com/Kami80/Management-Dashboard/blob/main/static/assets/img/Dashboard1.png)
+![table](https://github.com/Kami80/Management-Dashboard/blob/main/static/assets/img/Dashboard2.png)
 
 ## Installation
 
